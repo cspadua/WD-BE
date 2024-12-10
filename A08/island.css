@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'Maleo Trials Black';
+    src: url('fonts/MaleoTrials-Black-BF65a5f4e6d9981.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+nav {
+    background-color: #171717;
+}
+
+#logo {
+    width: auto;
+    height: 25px;
+}
+
+#button1 {
+    background-color: #9E9E9E;
+    color: #171717;
+    font-size: 12px;
+    border-radius: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#button1:hover {
+    background-color: #171717;
+    color: #FFFFFF;
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+#button2 {
+    background-color: #9E9E9E;
+    color: #171717;
+    font-size: 12px;
+    border-radius: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+#button2:hover {
+    background-color: #171717;
+    color: #FFFFFF;
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+
+#title-island {
+    font-family: 'Maleo Trials Black', sans-serif;
+    font-size: 120px;
+    text-transform: uppercase;
+}
+
+#button3 {
+    background-color: #171717;
+    color: #171717;
+    font-size: 12px;
+    border-radius: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    pointer-events: none;
+    cursor: not-allowed; 
+}
+
+#island-overview {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+
+.image-container img {
+    position: relative;
+    z-index: 2;
+}
+
+#content1,
+#content2,
+#content3 {
+    font-family: 'Maleo Trials Black', sans-serif;
+    font-size: 96px;
+    color: white;
+}
+
+#pcontent1,
+#pcontent2,
+#pcontent3 {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: rgb(221, 221, 221);
+    text-align: justify;
+}
+
+#qoute {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    color: #ffffff;
+}
+
+.footer-text {
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: #696E69;
+}
+
+.footer-links {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    color: #D6D6D6;
+}

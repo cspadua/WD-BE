@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CS〡Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/icon.png">
+
+    <style>
+        body {
+            background-color: #FAF7EE;
+        }
+
+        .navbar-nav .nav-link {
+            color: #000000;
+            font-size: 1.2rem;
+            font-family: 'DM Serif Text', serif;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #07149c;
+        }
+
+
+        .logo-container {
+            margin-bottom: 1rem;
+        }
+
+        .logo-container img {
+            height: 70px;
+            width: auto;
+        }
+
+
+        .hire-me-button {
+            margin-bottom: 1rem;
+        }
+
+        .hire-me-button button {
+            padding: 10px 50px;
+            background-color: #D4D0C4;
+            color: #252525;
+            border: none;
+            border-radius: 40px;
+            cursor: pointer;
+            border: none;
+            font-weight: bold;
+        }
+
+        .hire-me-button button:hover {
+            background-color: #918f89;
+            color: #252525;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        .social-icons img {
+            width: 30px;
+            height: 30px;
+            transition: transform 0.3s ease, filter 0.3s ease;
+        }
+
+        .social-icons img:hover {
+            transform: scale(1.2);
+            filter: brightness(1.2);
+
+        }
+
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='black' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+        }
+    </style>
+</head>
+
+<body data-bs-theme="dark" id="body">
+    <nav class="navbar navbar-expand-lg" style="background-color: #FAF7EE; border-bottom: 1px solid #000;">
+        <div class="container d-flex">
+            <a class="navbar-brand">
+                <img id="logo" src="images/logo.png" alt="logo" width="100" height="auto">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-4">
+                        <a class="nav-link" aria-current="page" href="index.php">Home</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a class="nav-link" href="projects.php">Projects</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <div class="container p-0" style="width: 100%;">
+            <div>
+                <img src="images/home/about-me-2.png" style="width: 100%; height: 800px; object-fit: cover;">
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="d-flex justify-content-center align-items-center"
+            style="background-color: #252525; padding: 20px; flex-direction: column; text-align: center;">
+            <div class="logo-container">
+                <img src="images/home/flogo.png" class="img-fluid" alt="Logo">
+            </div>
+
+            <div class="hire-me-button">
+                <button class="btn btn-primary">CONTACT ME</button>
+            </div>
+
+            <div class="d-flex justify-content-center gap-3 social-icons">
+                <a href="https://www.facebook.com/Naieonnnn"><img src="images/home/fb.png" alt="Facebook"
+                        class="img-fluid"></a>
+                <a href="https://www.instagram.com/c__l._.03/"><img src="images/home/ig.png" alt="Instagram"
+                        class="img-fluid"></a>
+                <a href="https://github.com/cspadua"><img src="images/home/gh.png" alt="GitHub" class="img-fluid"></a>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

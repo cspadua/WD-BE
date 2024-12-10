@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'Maleo Trials Black';
+    src: url('fonts/MaleoTrials-Black-BF65a5f4e6d9981.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+nav {
+    background-color: #171717;
+}
+
+#logo {
+    width: auto;
+    height: 45px;
+}
+
+#button1 {
+    background-color: #9E9E9E;
+    color: #171717;
+    font-size: 12px;
+    border-radius: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#button1:hover {
+    background-color: #171717;
+    color: #FFFFFF;
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+
+#title {
+    font-family: 'Maleo Trials Black', sans-serif;
+    font-size: 120px;
+    color: #0071BD;
+
+}
+
+#overview {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+@media (max-width: 768px) {
+    .circle {
+        width: 280px; 
+        height: 280px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .circle {
+        width: 200px; 
+        height: 200px;
+    }
+}
+.image-container img {
+    position: relative;
+    z-index: 2;
+}
+
+#islandp-overview {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+#story {
+    font-family: 'Maleo Trials Black', sans-serif;
+    font-size: 60px;
+    color: #0071BD;
+}
+
+#details {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    color: #ffffff;
+}
+
+.card {
+    border: none;
+}
+
+.hover-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.hover-card:hover {
+    transform: scale(1.05);
+
+}
+
+.hover-card img {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease, transform 0.3s ease;
+    transform: scale(1);
+
+}
+
+
+.hover-card:hover img {
+    filter: grayscale(0);
+    transform: scale(1.05);
+
+}
+
+#qoute {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    color: #ffffff;
+}
+
+.footer-text {
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: #696E69;
+}
+
+.footer-links {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    color: #D6D6D6;
+}
+
+.w3-row-padding img {
+    margin-bottom: 12px
+}
